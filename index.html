@@ -1,118 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formative</title>
+    <link rel="icon" type="image/png" href="fakeformative.png">
+    
+    <style>
+        /* CSS for game icons */
+        .game-icon {
+            width: 100px; /* Adjust the size of the icons as needed */
+            height: 100px;
+            margin: 10px; /* Adjust spacing between icons */
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+        }
 
-<html>
-    <head>
-        <meta charset="utf-8">
-
-        <title>Formative</title>
-		<link rel="icon" type="x-icon" href="fakeformative.png">
-
-        <!-- Load external CSS styles -->
-        <link rel="stylesheet" href="styles.css">
-
-    </head>
-
-    <body>
-		
-        <center> <img src="favicon.png" width="200" height="200"> </center>
+        .game-icon:hover {
+            transform: scale(1.1); /* Increase size on hover */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add drop shadow on hover */
+        }
+    </style>
+</head>
+<body>
+	    <header>
+        <center>
+            <img src="favicon.png" width="200" height="200" alt="Formative logo">
+        </center>
         <h3>-~- Unblocked games for all -~-</h3>
-		
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5662811664250117"
-     crossorigin="anonymous"></script>
-        
-		<!--
-        <div class="topnav">
-            <a class "active" href="#games">Games</a>
-            <a class href="#about">About</a>
-            <a class href="#contact">Contact</a>
-        </div>
-		-->
-		
-		<center>
-		<input type="text" name="username" class="input navbar-control" placeholder"Formative" value="Formative" id="title">
-		<input type="text" name="password" class="input navbar-control" placeholder="fakeformative.png" value="fakeformative.png" id="icon">
-		<br>
-		<button class="button navbar-control" type="button" id="btnTitle"  style="margin-top: 20px;margin-right: 20px;background: rgb(44, 44, 44);color:#fff;">Set title</button>
-        <button class="button navbar-control" type="button" id="btnIcon"  style="margin-top: 20px;margin-right: 20px;background: rgb(44, 44, 44);color:#fff;">Set Icon</button>
-        <button class="button navbar-control" type="button" id="btnReset"  style="margin-top: 20px;background: rgb(44, 44, 44);color:#fff;">Reset</button>
-		</center>
-		
-		<h1>Games (20)</h1>
-		
-        <div class="games">
-            <a class "gamebutton" href="twenT48/index.html"><img src="twenT48/icon.png"></a> <!-- make sure to have br at every fith game -->
-			<a class "gamebutton" href="hxtrs/index.html"><img src="hxtrs/icon.png"></a>
-			<a class "gamebutton" href="rdsrd/index.html"><img src="rdsrd/icon.png"></a>
-			<a class "gamebutton" href="emjmnswp/index.html"><img src="emjmnswp/icon.png"></a>
-			<a class "gamebutton" href="infmar/main.html"><img src="infmar/icon.png"></a> <br>
-			<a class "gamebutton" href="twdf/index.html"><img src="twdf/icon.png"></a>
-			<a class "gamebutton" href="typr/typr.html"><img src="typr/icon.png"></a>
-			<a class "gamebutton" href="f1/index.html"><img src="f1/icon.png"></a>
-			<a class "gamebutton" href="wlfjs/index.html"><img src="wlfjs/icon.png"></a>
-			<a class "gamebutton" href="gtwyshtut/index.html"><img src="gtwyshtut/icon.png"></a> <br>
-			<a class "gamebutton" href="tptptp/index.html"><img src="tptptp/icon.png"></a>
-			<a class "gamebutton" href="stckmnhk/index.html"><img src="stckmnhk/icon.jpg"></a>
-			<a class "gamebutton" href="flpybrd/index.html"><img src="flpybrd/icon.png"></a>
-			<a class "gamebutton" href="chrdno/index.html"><img src="chrdno/icon.png"></a>
-			<a class "gamebutton" href="stck/index.html"><img src="stck/icon.png"></a> <br>
-			<a class "gamebutton" href="wdl/index.html"><img src="wdl/icon.png"></a>
-			<a class "gamebutton" href="cc/index.html"><img src="cc/icon.png"></a>
-			<a class "gamebutton" href="rlyvtx/index.html"><img src="rlyvtx/icon.png"></a> 
-			<a class "gamebutton" href="tnyfsh/index.html"><img src="tnyfsh/icon.png"></a>
-			<a class "gamebutton" href="egycr/index.html"><img src="egycr/icon.png"></a> <br>
-        </div>
-		
-		<br><br><br>
-		<h1>Alpha Games (7)</h1>
-		
-		<p>These games may or may not work as intended!</p>
-		
-		<div class="games">
-			<a class "gamebutton" href="subsurf/subsurfs.html"><img src="subsurf/icon.png"></a>
-			<a class "gamebutton" href="dm/index.html"><img src="dm/icon.png"></a>
-			<a class "gamebutton" href="crsyrd/index.html"><img src="crsyrd/icon.png"></a>
-			<a class "gamebutton" href="cbfld/index.html"><img src="cbfld/icon.jpg"></a>
-			<a class "gamebutton" href="rtbwl/index.html"><img src="rtbwl/icon.png"></a> <br>
-			<a class "gamebutton" href="trts/index.html"><img src="trts/icon.png"></a>
-			<a class "gamebutton" href="chtwntftet/couch/index.html"><img src="chtwntftet/icon.jpg"></a>
-		</div>
-		
-		<br><br><br>
-		<h1>About</h1>
-		
-		<p>Hello World!<br>UBG Online was created as a sucessor to TBG95, another great unblocked games website. 
-		Issue is, our school found the site and decided to block most of the games on there. Weirdly enough, they 
-		didn't block the actual site, just the games individually. I decided it's probably a good idea to make my own. 
-		I had to completely re-learn web development for this, so I hope you like it! If you have any game suggestions, 
-		let me know in the contact section! (Or if you know me just tell me irl lol)
-		
-		<br><br>Why choose us over TBG95?<br>We may have less games, but more can come! Our version of Subway Surfers is
-		more updated and a LOT less buggy (won't break when you change skins). We are also leading in customer service.
-		Have a game suggestion? Is something not working? Let us know in the contact section! Unlike TBG95, where you have
-		no way of telling the owner weather or not something is blocked or buggy, we can resolve things for you.</p>
-		
-		<br><br><br>
-		<h1>Update log</h1>
-		
-		<p>
-		24.2.23 Changed the name to UBG Online. "Oasis" being in the title got it flagged on my school system, so I changed the title on Github and it worked all day long. Added alpha games section, Crossy Road, Cubefield, Retro Bowl, Tetris, Rolly Vortex, Cookie Clicker, Tiny Fishing, Wordle, Chrome Dino and Stack. Added tab cloaker at the top of the page.
-		<br>23.2.23 Working on Github! Took a lot of time to import the files due to restrictions. Some games were replaced due to bad quality and/or being hard to import.
-		<br>22.2.23 Added 15 games. Not implimented to Github yet, do tomorrow.
-		<br>21.2.23 Site framework made. Games not implimented yet.
-		</p>
-		
-		<br><br><br>
-		<h1>Contact</h1>
-		
-	    <div class="contacts">
-	    	<a class "contactbutton" href="mailto:ubgoasis@gmail.com?subject=UBG Oasis"><img src="gmail.jpg"></a>
-			<a class "contactbutton" href="https://discord.gg/eDb5uG8c6x"><img src="disc.jpg"></a>
-	    </div>
-	    	
-        <!-- Load external JavaScript -->
-		<script src="scripts.js"></script>
-        
-    </body>
+    </header>
+
+    <nav>
+        <center>
+            <input type="text" name="username" class="input navbar-control" placeholder="Formative" value="Formative" id="title">
+            <input type="text" name="password" class="input navbar-control" placeholder="fakeformative.png" value="fakeformative.png" id="icon">
+            <br>
+            <button class="button navbar-control" type="button" id="btnTitle">Set title</button>
+            <button class="button navbar-control" type="button" id="btnIcon">Set Icon</button>
+            <button class="button navbar-control" type="button" id="btnReset">Reset</button>
+        </center>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Games (20)</h1>
+            <div class="games">
+                <a class="gamebutton" href="twenT48/index.html"><img src="twenT48/icon.png" class="game-icon"></a>
+                <!-- Add other game links here -->
+            </div>
+        </section>
+
+        <section>
+            <h1>Alpha Games (7)</h1>
+            <p>These games may or may not work as intended!</p>
+            <div class="games">
+                <!-- Add alpha game links here -->
+            </div>
+        </section>
+
+        <section>
+            <h1>About</h1>
+            <p>Hello World!<br>UBG Online was created as a successor to TBG95, another great unblocked games website. If you have any game suggestions, let us know in the contact section!</p>
+        </section>
+
+        <section>
+            <h1>Update log</h1>
+            <p>
+                24.2.23 Changed the name to UBG Online. "Oasis" being in the title got it flagged on my school system, so I changed the title on Github and it worked all day long. Added alpha games section, Crossy Road, Cubefield, Retro Bowl, Tetris, Rolly Vortex, Cookie Clicker, Tiny Fishing, Wordle, Chrome Dino and Stack. Added tab cloaker at the top of the page.
+                <br>23.2.23 Working on Github! Took a lot of time to import the files due to restrictions. Some games were replaced due to bad quality and/or being hard to import.
+                <br>22.2.23 Added 15 games. Not implemented to Github yet, do tomorrow.
+                <br>21.2.23 Site framework made. Games not implemented yet.
+            </p>
+        </section>
+
+        <section>
+            <h1>Contact</h1>
+            <div class="contacts">
+                <a class="contactbutton" href="mailto:ubgoasis@gmail.com?subject=UBG Oasis"><img src="gmail.jpg" alt="Gmail"></a>
+                <a class="contactbutton" href="https://discord.gg/eDb5uG8c6x"><img src="disc.jpg" alt="Discord"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <script src="scripts.js"></script>
+    </footer>
+</body>
+</html>
 
 <!-- UBGPass123 -->
 
